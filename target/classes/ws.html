@@ -1,0 +1,44 @@
+<html>
+<head><title>Web Socket Test</title></head>
+<body>
+<script>
+    var socket;
+    if (window.WebSocket) {
+        socket = new WebSocket("ws://10.17.18.195:8081/myapp");
+        socket.onmessage = function (event) {
+            var values = event.data.split(":");
+            if(values[0] == "MENSAJE"){
+                document.getElementById('appender').innerHTML += values[1]+"<br>";
+            }else if (values[0] == "ALERTA"){
+                alert(values[1]);
+            }
+            //alert("Received data from websocketdd: " + event.data);
+        }
+        socket.onopen = function (event) {
+            alert("Web Socket opened!");
+        };
+        socket.onclose = function (event) {
+            alert("Web Socket closed. ");
+        };
+    } else {
+        alert("Your browser does not support Websockets. (Use Chrome)");
+    }
+    function send(message) {
+        if (!window.WebSocket) {
+            return;
+        }
+        if (socket.readyState == WebSocket.OPEN) {
+            document.getElementById('appender').innerHTML += message+"<br>";
+            socket.send(message);
+        } else {
+            alert("The socket is not open.");
+        }
+    }
+</script>
+<form onsubmit="return false;">
+    <div id="appender"></div>
+    <input type="text" name="message" value="Hello, World!"/>
+    <input type="button" value="Send Web Socket Data" onclick="send(this.form.message.value)"/>
+</form>
+</body>
+</html>
