@@ -75,7 +75,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/vertest4/Service.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -481,12 +481,12 @@
       <workItem from="1506607612595" duration="2220000" />
       <workItem from="1517454241031" duration="1238000" />
       <workItem from="1517455573654" duration="2405000" />
-      <workItem from="1552678708489" duration="19000" />
+      <workItem from="1552678708489" duration="161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48083000" />
+    <option name="totallyTimeSpent" value="48225000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -505,7 +505,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15351813" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15351813" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -520,7 +520,7 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32959327" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.32916668" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24104235" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.24104235" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
@@ -601,7 +601,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/vertest4/Service.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
         </state>
       </provider>
     </entry>
